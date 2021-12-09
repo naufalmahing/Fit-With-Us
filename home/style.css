@@ -151,6 +151,9 @@ nav ul {
 }
 
 
+.main {
+    margin: 36px 36px;
+}
 
 .main-option {
     display: flex;
@@ -160,7 +163,10 @@ nav ul {
     list-style: none;
 }
 
-.main-option li {
+.main-option li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
     background: #C4C4C4;
     display: flex;
     align-items: flex-end;
@@ -169,11 +175,54 @@ nav ul {
     height: 367px;
 }
 
-.main-option li a {
-    color: #000000;
-    text-decoration: none;
+.highlight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 172px 36px;
 }
 
+.highlight a {
+    background: #C4C4C4;
+    width: 637px;
+    height: 344px;
+    padding: 172px 345px;
+
+}
+
+.desc {
+    text-align: center;
+    margin: 0px 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.workout-container {
+    background: #FF9F68;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding-left: 36px;
+}
+
+.workout-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 132px;
+    margin: 132px 36px;
+    list-style: none;
+}
+
+.workout-options a {
+    margin-top: 204px;
+    background:#C4C4C4;
+    padding: 101px 102px;
+}
 
 /* Footer */
 
