@@ -132,49 +132,36 @@ nav ul {
     margin-bottom: 5%;
 }
 
-.things-container {
-    margin: 5% 5% 5% 5%;
-}
-
-.option-container {
+.menu-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 5% 10%;
 }
 
-.things-options .opt1{
-    background: url(images/heavy-lift.jpg);
+.options {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
 }
 
-.things-options .opt1 a {
-    padding: 26px 55px;
-    display: flex;
-    width: 400px;
-    height: 450px;
-    align-items: flex-end;
-    text-align: center;
+.options li {
+    margin: 0px 25px;
 }
 
-.things-options .opt2{
-    background: url(images/blog.jpg);
+.options li a {
+    background: #C4C4C4;
     display: flex;
+    width: 400px;
+    height: 405px;
     align-items: center;
+    font-size: 24px;
+    text-decoration: none;
     justify-content: space-around;
-    list-style: none;
+    color: #000;
 }
 
-.things-options .opt2 a {
-    padding: 26px 55px;
-    display: flex;
-    width: 400px;
-    height: 450px;
-    align-items: flex-end;
-    text-align: center;
-}
 
 /* Footer */
 
