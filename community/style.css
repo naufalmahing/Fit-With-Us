@@ -152,8 +152,8 @@ nav ul {
 .things-options a {
     padding: 26px 55px;
     display: flex;
-    width: 50%;
-    height: 55%;
+    width: 400px;
+    height: 450px;
     align-items: flex-end;
     text-align: flex-end;
 }
