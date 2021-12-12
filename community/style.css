@@ -161,12 +161,11 @@ nav ul {
     align-items: flex-end;
 }
 
-.centered {
+.things-options li p {
     position: absolute;
     bottom: 8px;
     left: 50%;
-    transform: translate(-50%, -50%);
-  }
+}
 
 
 /* Footer */
