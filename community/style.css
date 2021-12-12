@@ -158,6 +158,7 @@ nav ul {
     display: flex;
     width: 400px;
     height: 450px;
+    align-items: flex-end;
     
 }
 
