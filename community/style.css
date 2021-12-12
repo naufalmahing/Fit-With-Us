@@ -163,8 +163,9 @@ nav ul {
     font-size: 24px;
     text-decoration: none;
     justify-content: space-around;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
+
 
 /* Footer */
 
