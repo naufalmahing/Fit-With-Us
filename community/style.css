@@ -158,8 +158,8 @@ nav ul {
     display: flex;
     width: 400px;
     height: 450px;
-    align-items: flex-end;
-    text-align: center;
+    align-items: center;
+    text-align: flex-end;
 }
 
 /* Footer */
