@@ -102,6 +102,27 @@ nav ul {
 }
 
 /*Body*/
+.blog-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F5EDED;
+    height: 122px;
+    padding: 1% 3%;
+    font-size: 38px;
+}
+
+.blog-container div {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.blog-container a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 12px;
+}
 
 
 
