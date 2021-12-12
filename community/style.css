@@ -149,16 +149,12 @@ nav ul {
     list-style: none;
 }
 
-.things-options li {
-    margin: 0px 25px;
-}
-
-.things-options li a {
+.things-options a {
     padding: 26px 55px;
     display: flex;
     width: 400px;
     height: 450px;
-    align-items: center;
+    align-items: flex-end;
     text-align: flex-end;
 }
 
