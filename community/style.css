@@ -126,10 +126,10 @@ nav ul {
 }
 
 .line {
-    height: 3px;
+    height: 5px;
     background: #F96D00;
-    margin: 72px 3%;
-    margin-bottom: 1%;
+    margin: 50px 3%;
+    margin-bottom: 5%;
 }
 
 .things-container {
