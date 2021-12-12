@@ -159,14 +159,8 @@ nav ul {
     width: 400px;
     height: 450px;
     align-items: flex-end;
+    text-align: center;
 }
-
-.things-options li p {
-    position: absolute;
-    bottom: 8px;
-    left: 50%;
-}
-
 
 /* Footer */
 
