@@ -166,7 +166,7 @@ nav ul {
     font-size: 18px;
     padding: 1% 1%;
     color: #FFFFFF;
-    text-align: center;
+    align-items: center;
 }
 
 .side-continer{
