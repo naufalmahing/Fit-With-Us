@@ -144,6 +144,10 @@ nav ul {
     margin-left: 20px;
 }
 
+.content-container p{
+    font-size: 24px;
+}
+
 .ellipse{
     background-color: #F5EDED;
     height: 80px;
