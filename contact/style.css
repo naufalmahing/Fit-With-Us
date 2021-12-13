@@ -162,11 +162,12 @@ nav ul {
     display: flex;
     background-color: #3E3636;
     width: 100px;
-    height: 30px;
+    height: 25px;
     font-size: 18px;
     padding: 2% 2%;
     color: #FFFFFF;
     text-align: center;
+    vertical-align: top;
 }
 
 .side-continer{
