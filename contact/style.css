@@ -162,7 +162,7 @@ nav ul {
 .form-container input[type=submit] {
     display: flex;
     background-color: #3E3636;
-    width: 180px;
+    width: 100px;
     height: 25px;
     font-size: 18px;
     padding: 1% 1%;
