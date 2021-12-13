@@ -156,13 +156,27 @@ nav ul {
     padding: 2% 2%;
 }
 
-.side-container ul li a{
-    background-color: transparent;
+.side-container p{
+    margin: 1% 1%;
+    padding: 1% 1%;
+    width: 324px;
+    height: 65px; 
+    text-align: center;
+    font-size: 24px;
+}
+.side-container ul li {
     display: flex;
     flex-direction: column;
+    margin: 24px 0px;
+}
+
+.side-container a {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0px;
+    background-color: transparent;
     width: 450px;
     height: 100px;
-    margin: 24px 0px;
 }
 
 .ellipse{
