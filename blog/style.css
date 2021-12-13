@@ -154,8 +154,8 @@ nav ul {
     width: 450px;
 }
 
-.title{
-    font-size: 65x;
+.side-container title{
+    font-size: 24x;
 }
 .side-container ul li {
     display: flex;
