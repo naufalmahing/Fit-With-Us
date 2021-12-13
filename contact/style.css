@@ -158,6 +158,15 @@ nav ul {
     color: black;   
 }
 
+.form-container input button{
+    display: flex;
+    background-color: #3E3636;
+    width: 180px;
+    height: 25px;
+    size: 25px;
+    color: rgb(255, 255, 255);  
+}
+
 .side-continer{
     width: 281px;
     max-height: 331px;
