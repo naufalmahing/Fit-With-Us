@@ -157,8 +157,6 @@ nav ul {
 .side-container p{
     flex-direction: column;
     margin: 1% 1%;
-    padding: 1% 1%;
-    width: 324px;
     height: 65px; 
     text-align: center;
     font-size: 24px;
