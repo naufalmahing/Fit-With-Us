@@ -138,7 +138,7 @@ nav ul {
     width: 840px;
     margin-top: 5px;
     margin-left: 5px;
-    padding: auto;
+    padding: 5% 5%;
 }
 
 .form-container label{
@@ -188,7 +188,6 @@ nav ul {
 
 .side-continer p{
     margin-top: 5px;
-    padding-top: 5px;
 }
 
 /* Footer */
