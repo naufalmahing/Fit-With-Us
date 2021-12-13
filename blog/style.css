@@ -156,13 +156,18 @@ nav ul {
     padding: 2% 2%;
 }
 
-.side-container a{
+.side-container ul li a{
     background-color: transparent;
     display: flex;
     flex-direction: column;
     width: 450px;
     height: 100px;
     margin: 24px 0px;
+}
+
+.side-container a{
+    color: #000;
+    font-size: 24px
 }
 
 .ellipse{
