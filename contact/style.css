@@ -156,6 +156,7 @@ nav ul {
     height: 25px;
     size: 25px;
     color: black;   
+    vertical-align: middle;
 }
 
 .form-container input[type=submit] {
@@ -166,7 +167,8 @@ nav ul {
     font-size: 18px;
     padding: 1% 1%;
     color: #FFFFFF;
-    align-items: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .side-continer{
