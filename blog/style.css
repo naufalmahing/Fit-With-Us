@@ -160,8 +160,6 @@ nav ul {
 }
 
 .side-container a {
-    display: flex;
-    flex-direction: column;
     margin: 24px 0px;
     background-color: transparent;
     width: 450px;
