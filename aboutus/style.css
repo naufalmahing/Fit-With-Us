@@ -149,14 +149,14 @@ nav ul {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    display:inline-block
+    display:inline-block;
 }
 
 .name-container ul li {
     background-color: rgba(255, 211, 177, 0.877);
     width: 500px;
     height: 100px;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     margin: 25px 20px 20px;
     font-size: 24px;
