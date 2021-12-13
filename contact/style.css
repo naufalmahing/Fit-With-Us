@@ -168,6 +168,7 @@ nav ul {
     color: #FFFFFF;
     text-align: center;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .side-continer{
