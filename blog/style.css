@@ -135,6 +135,7 @@ nav ul {
     display: flex;
     width:  980px;
     flex-direction: column;
+    padding: 3% 3%;
 }
 
 .content-container button{
