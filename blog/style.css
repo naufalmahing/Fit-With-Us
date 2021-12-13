@@ -163,11 +163,13 @@ nav ul {
     align-items: center;
 }
 .blogtitle{
+    margin-top: 2%;
     margin-left: 120px;
     font-size: 40px;
 }
 
 .blckline {
+    margin-top: 2%;
     margin-left: 120px;
     background-color: #000000;
     height: 1px;
@@ -175,6 +177,7 @@ nav ul {
 }
 
 .line{
+    margin: 3% 0% 3%;
     background-color: #FF9F68;
     height: 2px;
     width:  970px;
