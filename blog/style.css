@@ -170,6 +170,10 @@ nav ul {
     vertical-align: middle;
 }
 
+.side-container a {
+    margin: 24px 0px;
+}
+
 .ellipse{
     float: left;
     background: rgba(62, 54, 54, 0.5);
