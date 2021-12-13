@@ -164,6 +164,8 @@ nav ul {
     background-color: transparent;
     width: 450px;
     height: 100px;
+    text-decoration: none;
+
 }
 
 .ellipse{
