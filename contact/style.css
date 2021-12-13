@@ -164,10 +164,9 @@ nav ul {
     width: 100px;
     height: 25px;
     font-size: 18px;
-    padding: 2% 2%;
+    padding: 10px 25px;
     color: #FFFFFF;
     text-align: center;
-    vertical-align: top;
 }
 
 .side-continer{
