@@ -139,6 +139,8 @@ nav ul {
 
 .content-container button{
     background-color: #FF9F68;
+    margin: 1% 1%;
+    padding: 1% 1%;
     border-radius: 8px;
     width: 324px;
     height: 65px; 
