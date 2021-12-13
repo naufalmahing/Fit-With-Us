@@ -160,6 +160,12 @@ nav ul {
     
 }
 
+.menu-container p{
+    margin: 1%;
+    text-align: center;
+    font-size: 25px;
+}
+
 
 /* Footer */
 
