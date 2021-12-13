@@ -146,6 +146,7 @@ nav ul {
     width: 400px;
     height: 500px;
     justify-content: space-evenly;
+    vertical-align: middle;
 }
 
 .menu-container a {
