@@ -155,6 +155,7 @@ nav ul {
     flex-direction: column;
     margin: 24px 0px;
     text-decoration: none;
+    padding: 1% 1%;
 }
 
 .blog-content{
@@ -171,6 +172,7 @@ nav ul {
 .blckline {
     margin-top: 2%;
     margin-left: 120px;
+    margin-bottom: 3%;
     background-color: #000000;
     height: 1px;
     width:  560px;
