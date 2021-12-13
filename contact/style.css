@@ -157,6 +157,16 @@ nav ul {
     height: 70;
 }
 
+.side-continer{
+    width: 281px;
+    max-height: 331px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 2% 3%;
+    margin-right:  3% ;
+    margin-top: 1%;
+}
 
 /* Footer */
 
