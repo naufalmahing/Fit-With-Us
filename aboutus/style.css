@@ -150,6 +150,7 @@ nav ul {
     height: 80px;
     width: 80px;
     border-radius: 50%;
+    float: left;
 }
 
 .name-container ul li {
