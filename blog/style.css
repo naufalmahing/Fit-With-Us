@@ -156,7 +156,7 @@ nav ul {
     padding: 2% 2%;
 }
 
-.side-container ul li a{
+.side-container a{
     background-color: transparent;
     display: flex;
     flex-direction: column;
