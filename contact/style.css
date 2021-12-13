@@ -170,10 +170,8 @@ nav ul {
 
 .line {
     display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #F96D00;
-    margin: 1em 0;
+    background-color: #F96D00;
+    height: 2px;
     padding: 0;
 }
 
