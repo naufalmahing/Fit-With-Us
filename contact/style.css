@@ -155,8 +155,7 @@ nav ul {
     width: 840px;
     height: 25px;
     size: 25px;
-    color: black;   
-    vertical-align: middle;
+    color: black;
 }
 
 .form-container input[type=submit] {
@@ -165,10 +164,9 @@ nav ul {
     width: 100px;
     height: 25px;
     font-size: 18px;
-    padding: 1% 1%;
+    padding: auto;
     color: #FFFFFF;
     text-align: center;
-    vertical-align: middle;
 }
 
 .side-continer{
