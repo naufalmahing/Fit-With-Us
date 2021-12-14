@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+
+nav {
+    display: flex;
+    padding: 1% 3%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 193px;
+    left: 0px;
+    top: 0px;
+    background: #F96D00;
+}
+
+nav ul {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+}
+
+.nav-items li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px 12px;
+    position: relative;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color :#222831;
+    font-size: 24px;
+}
+
+.right-side-nav {
+    text-align: right;  
+    padding: 0;  
+    margin: 0;
+}
+
+.upper {
+    display: flex;
+    padding: 2px 12px;
+}
+
+.search-container {
+    margin-left: auto;
+    display: flex;
+    border: 5px rgba(0, 0, 0, 0.5);
+}
+
+.search-container input[type=text] {
+    background: rgba(25, 25, 26, 0.5);
+    font-size: 20px;
+    border: 1px #000000;
+    width: 288px;
+    height: 49px;
+    padding: 0px 10px;
+}
+
+.search-btn {
+    padding: auto 10px;
+    background: #E99960;
+}
+
+.search-btn:hover {
+    background: #c28051;
+}
+
+.search-btn img {
+    padding: 6px 10px;
+}
+
+
+
+.right-side-nav .lower {
+    position: relative;
+    height:100%; 
+    margin-left: auto; 
+    margin-top: 6.5em; 
+    margin-bottom: 0.3em;
+}
+
+
+
+.home-logo-text {
+    text-decoration: none;
+    font-size: 40px;
+    color: #222831;
+    line-height: 47px;
+
+    text-align: center;
+    padding: 44.5px 65px;
+    background: #F96D00;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 378px;
+    height: 118px;
+}
+
+
+/* Body */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F5EDED;
+    height: 122px;
+    padding: 1% 3%;
+    font-size: 38px;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 12px;
+}
+
+.news-container {
+    margin: 3% 9%;
+}
+
+.news-container div {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.btn {
+    background: #FF9F68;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    height: 48px;
+    width: 20%;
+    font-size: 20px;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #ec8667;
+}
+
+.main-container {
+    margin: 3% 12%;
+}
+
+.news {
+    background: #F5EDED;
+}
+
+.news li {
+    display: flex;
+    align-items: center;
+    margin: 24px;
+    margin-top: 20px;
+}
+
+.news .line {
+    border-top: 1px solid #000000;
+    width: 1000px;
+    margin-left: 100px;
+}
+
+.news h2 {
+    margin-top: 15px;
+    margin-right: 500px;
+}
+
+.news p.rate{
+    text-align: end;
+    margin-left: 50px;
+}
+
+.news p {
+    margin-bottom: 30px;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.checked {
+    color: orange;
+    margin-left: 5px;
+}
+
+.profile img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.line {
+    border-top: 1px solid #FF9F68;
+    height: 0px;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    display: flex;
+    padding: 2% 6%;
+    background: #3E3636;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    background: #C4C4C4;
+    width: 281px;
+    max-height: 331px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 2% 3%;
+}
+
+.footer-content {
+    padding: 2% 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    
+    color: #FFFFFF;
+}
+
+.copyright-container {
+    background: #C4C4C4;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    padding: 0.5% 0.5%;
+    
+    color: #000000;
+}
