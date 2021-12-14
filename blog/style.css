@@ -244,12 +244,11 @@ nav ul {
 }
 
 .footer-content {
-    padding: 2% 6%;
+    padding: 2% 20%;
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 24px;
-    
+    font-size: 24px;    
     color: #FFFFFF;
 }
 
@@ -259,8 +258,6 @@ nav ul {
     align-items: center;
     text-align: center;
     font-size: 18px;
-    margin-left: 5%;
     padding: 0.5% 0.5%;
-    
     color: #000000;
 }
