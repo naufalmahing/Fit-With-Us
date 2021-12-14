@@ -187,7 +187,7 @@ nav ul {
 }
 
 .title{
-    padding: ;
+    padding: 1%;
     font-size: 24px;
 }
 
@@ -235,7 +235,7 @@ nav ul {
 
 .contact-info {
     background: #C4C4C4;
-    width: 281px;
+    width: 300px;
     max-height: 331px;
     display: flex;
     align-items: center;
