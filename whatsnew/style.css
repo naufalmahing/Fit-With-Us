@@ -1,11 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     font-family: "Roboto", sans-serif;
 }
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
 
 /* Header */
 
@@ -15,9 +21,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    height: 193px;
+    /* height: 193px;
     left: 0px;
-    top: 0px;
+    top: 0px; */
     background: #F96D00;
 }
 
@@ -54,22 +60,32 @@ nav ul {
 .search-container {
     margin-left: auto;
     display: flex;
-    border: 5px rgba(0, 0, 0, 0.5);
 }
 
 .search-container input[type=text] {
     background: rgba(25, 25, 26, 0.5);
+    border: none;
     font-size: 20px;
-    border: 1px #000000;
     width: 288px;
     height: 49px;
     padding: 0px 10px;
     z-index: 10;
 }
 
+.search-container input:focus {
+    outline: #000 solid 1px;
+    background: rgba(25, 25, 26, 0.5);
+}
+
+.search-container input.active {
+    background: #000;
+}
+
 .search-btn {
     padding: auto 10px;
     background: #E99960;
+    border: none;
+    cursor: pointer;
 }
 
 .search-btn:hover {
@@ -211,6 +227,10 @@ nav ul {
     align-items: center;
     font-size: 18px;
     padding: 2% 3%;
+}
+
+.contact-info p {
+    width: inherit;
 }
 
 .footer-content {
