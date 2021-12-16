@@ -189,7 +189,6 @@ nav ul {
 
 .side-container ul li {
     display: flex;
-    flex-direction: column;
     margin: 24px 0px;
     text-decoration: none;
 }
