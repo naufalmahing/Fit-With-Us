@@ -160,17 +160,10 @@ nav ul {
     margin-top: 20px;
 }
 
-
-.blog-content{
-    background-color: #F5EDED;
-    padding: 1% 1%;
-    align-items: center;
-}
-.news h2 {
+.blog h2 {
     margin-top: 15px;
     margin-right: 500px;
 }
-
 
 .blckline {
     margin-top: 2%;
@@ -178,14 +171,15 @@ nav ul {
     margin-bottom: 3%;
     background-color: #000000;
     height: 1px;
-    width:  560px;
+    width:  6000px;
 }
 
 .line{
-    margin: 3% 0% 4%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     background-color: #FF9F68;
     height: 2px;
-    width:  945px;
+    width:  75px;
 }
 
 .title{
@@ -215,13 +209,6 @@ nav ul {
     color: #000000;
 }
 
-.ellipse{
-    float: left;
-    background: rgba(62, 54, 54, 0.5);
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
 
 .profile img {
     display: flex;
