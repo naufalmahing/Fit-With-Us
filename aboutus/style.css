@@ -166,14 +166,12 @@ nav ul {
     border-radius: 12px;
 }
 
-
-
 /* Footer */
 
 .footer {
     position: relative;
     display: flex;
-    padding: 2% 5%;
+    padding: 2% 6%;
     background: #3E3636;
     height: 100%;
     justify-content: space-between;
@@ -191,10 +189,10 @@ nav ul {
 }
 
 .footer-content {
-    padding: 2% 6%;
+    padding: 2% 5%;
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: right;
     font-size: 24px;
     
     color: #FFFFFF;
