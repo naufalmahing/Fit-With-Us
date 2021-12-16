@@ -164,11 +164,11 @@ nav ul {
     padding: 1% 1%;
     align-items: center;
 }
-.blogtitle{
-    margin-top: 2%;
-    margin-left: 120px;
-    font-size: 40px;
+.news h2 {
+    margin-top: 15px;
+    margin-right: 500px;
 }
+
 
 .blckline {
     margin-top: 2%;
