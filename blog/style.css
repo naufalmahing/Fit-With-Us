@@ -165,6 +165,12 @@ nav ul {
     margin-right: 500px;
 }
 
+.blog p.rate{
+    text-align: end;
+    margin-left: 50px;
+}
+
+
 .blckline {
     margin-top: 2%;
     margin-left: 120px;
