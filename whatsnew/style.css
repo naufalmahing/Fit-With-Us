@@ -1,17 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Roboto", sans-serif;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
-
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
 
 /* Header */
 
@@ -21,8 +19,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    /* height: 193px;
-    left: 0px;
+    height: 200px;
+    /* left: 0px;
     top: 0px; */
     background: #F96D00;
 }
@@ -37,13 +35,19 @@ nav ul {
     list-style: none;
     display: inline-block;
     padding: 2px 12px;
-    position: relative;
+    position: static;
 }
 
 .nav-items li a {
     text-decoration: none;
     color :#222831;
     font-size: 24px;
+    transition: all 0.5s 100ms;
+    height: 26.5px;
+}
+
+.nav-items li a:hover {
+    font-size: 28px;
 }
 
 .right-side-nav {
@@ -52,7 +56,7 @@ nav ul {
     margin: 0;
 }
 
-.upper {
+.right-side-nav .upper {
     display: flex;
     padding: 2px 12px;
 }
@@ -60,14 +64,15 @@ nav ul {
 .search-container {
     margin-left: auto;
     display: flex;
+    /* position: fixed; */
 }
 
 .search-container input[type=text] {
     background: rgba(25, 25, 26, 0.5);
     border: none;
     font-size: 20px;
-    width: 288px;
-    height: 49px;
+    /* width: 288px;
+    height: 49px; */
     padding: 0px 10px;
     z-index: 10;
 }
@@ -75,10 +80,6 @@ nav ul {
 .search-container input:focus {
     outline: #000 solid 1px;
     background: rgba(25, 25, 26, 0.5);
-}
-
-.search-container input.active {
-    background: #000;
 }
 
 .search-btn {
@@ -89,6 +90,10 @@ nav ul {
 }
 
 .search-btn:hover {
+    background: #0a0400;
+}
+
+input::after {
     background: #c28051;
 }
 
@@ -112,14 +117,16 @@ nav ul {
     text-decoration: none;
     font-size: 40px;
     color: #222831;
-    line-height: 47px;
+    /* line-height: 47px; */
 
     text-align: center;
     padding: 44.5px 65px;
     background: #F96D00;
     border: 2px solid #000000;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border-radius: 10px;
+    max-width: auto;
+    height: auto;
 }
 
 /* Body */
@@ -138,12 +145,18 @@ nav ul {
     display: flex;
     align-items: center;
     font-size: 24px;
+    color: rgb(177, 167, 167);
 }
 
 .whatsnew-container a {
     text-decoration: none;
-    color: #000000;
+    color: rgb(177, 167, 167);
     padding: 0px 12px;
+    transition: color 0.5s 100ms;
+}
+
+.whatsnew-container a:hover {
+    color: #000000;
 }
 
 .container {
