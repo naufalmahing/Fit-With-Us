@@ -11,13 +11,18 @@ body {
 
 /* Header */
 
+@media(min-width: 1110px) {
+    nav {
+        display: flex;
+    }
+}
+
 nav {
-    display: flex;
     padding: 1% 3%;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    height: 200px;
+    min-height: 200px;
     background: #F96D00;
 }
 
@@ -111,22 +116,24 @@ nav ul {
 
 .home-logo-text {
     text-decoration: none;
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 3vw;
     color: #222831;
 
     text-align: center;
-    padding: 44.5px 65px;
+    /* padding: 44.5px 65px; */
+    padding: 3vw 3vw;
     background: #F96D00;
     border: 2px solid #000000;
     border-radius: 10px;
-    max-width: auto;
-    height: auto;
     transition: all 0.5s 100ms;
 }
 
 .home-logo-text:hover {
-    font-size: 44px;
-    margin: 15px 15px;
+    /* font-size: 44px; */
+    font-size: 3.4vw;
+    /* margin: 15px 15px; */
+    margin: 1vw 1vw;
 
     /* margin-left: 15px;
     margin-right: 15px; */
