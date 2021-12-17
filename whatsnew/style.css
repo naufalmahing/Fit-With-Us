@@ -41,13 +41,17 @@ nav ul {
 .nav-items li a {
     text-decoration: none;
     color :#222831;
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 1.6vw;
     transition: all 0.5s 100ms;
 }
 
 .nav-items li a:hover {
-    color: #ecc8c9;
+    /* color: #ecc8c9; */
+    color: #B85252;
+    /* color: #7e7e7e; */
     /* font-size: 28px; */
+    /* font-size: 1.8vw; */
 }
 
 .right-side-nav {
@@ -194,11 +198,13 @@ nav ul {
 
 .events-container li {
     margin: 24px 0px;
-    font-size: 24px
+    /* font-size: 24px; */
+    font-size: 1.8vw;
+    text-align: justify;
 }
 
 .events-container li img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .button-container {
@@ -216,10 +222,9 @@ nav ul {
 
 .separator {
     border-left: 1px solid #000000;
-    height: 830px;
-    width: 0px;
-    margin: 0px 72px;   
-    /* margin: 0% 2.5%; */
+    min-height: 120vmin;
+    /* margin: 0px 72px;    */
+    margin: 0% 2.5%;
 }
 
 .news-container {
@@ -236,11 +241,18 @@ nav ul {
 .news-container a {
     text-decoration: none;
     color: #000;
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 1.6vw;
 }
 
 .news-container a img {
-    max-width: 100%;
+    width: 100%;
+    min-height: 100%;
+}
+
+.news-container .news-title {
+    overflow: hidden; 
+    max-height: 10%; 
 }
 
 /* Footer */
@@ -257,16 +269,12 @@ nav ul {
 
 .contact-info {
     background: #C4C4C4;
-    width: 281px;
-    max-height: 331px;
+    min-width: 30%;
     display: flex;
     align-items: center;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.4vw;
     padding: 2% 3%;
-}
-
-.contact-info p {
-    width: inherit;
 }
 
 .footer-content {
@@ -274,7 +282,8 @@ nav ul {
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 1.4vw;
     
     color: #FFFFFF;
 }
@@ -284,7 +293,8 @@ nav ul {
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1.4vw;
     padding: 0.5% 0.5%;
     
     color: #000000;
