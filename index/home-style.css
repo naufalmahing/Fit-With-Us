@@ -215,9 +215,7 @@ body{
     border-radius: 10px;
     position: fixed;
     transition: 0.56s;
-    /* margin-right: 30%;
-    margin-left: 30%;
-    margin-top: 200px; */
+    /* margin-top: 200px; */
     margin: 5% 30%;
 }
 
