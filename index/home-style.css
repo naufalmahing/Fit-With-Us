@@ -312,10 +312,6 @@ nav {
 @media (max-width:1050px) {
     nav {
         flex-wrap: wrap;
-        /* flex-direction: column; */
-        /* align-ite */
-        /* display: grid;
-        place-items: center; */
     }
     .home-logo-text {
         display: none;
@@ -443,9 +439,6 @@ nav ul {
     padding: 2%;
     display: flex;
     align-items: center;
-
-    /* height: 637px;
-    padding: 15px 20px; */
 }
 
 @media(max-width: 1200px) {
@@ -512,7 +505,6 @@ nav ul {
 
 @media(max-width: 1350px) {
     .main-option {
-        /* flex-direction: column; */
         flex-wrap: wrap;
     }
 
@@ -526,14 +518,12 @@ nav ul {
     text-decoration: none;
     /* font-size: 24px; */
     font-size: 1.6vw;
-    /* background: #C4C4C4; */
     background: url(images/event-img.png);
     display: flex;
     align-items: flex-end;
     padding: 24px 30px;
     max-width: 343px;
     min-height: 367px;
-    /* height: 367px; */
     transition: all 0.5s 100ms;
 }
 
@@ -545,7 +535,6 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 172px 36px; */
     padding: 2% 2%;
 }
 
@@ -554,18 +543,12 @@ nav ul {
         max-width: 100%;
     }
 }
-.highlight a img{
-    /* background: #C4C4C4; */
-    /* background: url(images/event-img.png); */
-    /* max-width: 100%; */
-    height: 344px;
-    /* padding: 172px 345px; */
-    /* padding: 2% 2%; */
-    /* max-width: 700px; */
+.highlight a img { 
+    height: 344px; 
     transition: all 0.5s 100ms;
 }
 
-.highlight a img:hover{
+.highlight a img:hover {
     background-color:#777777;
 }
 
@@ -583,16 +566,13 @@ nav ul {
 @media (max-width: 1200px) {
     .highlight {
         flex-direction: column;
-        /* flex-wrap: wrap; */
         max-width: 100%;
     }
     .desc {
         margin:2% 5%;
     }
     .workout-options {
-        /* flex-direction: column; */
         flex-wrap: wrap;
-        /* margin: 2% 10%; */
         max-width: 80%;
     }
 }
@@ -611,17 +591,11 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* margin-bottom: 132px; */
-    /* margin: 132px 36px; */
     margin: 2% 2%;
-    /* margin: 24px 24px; */
     list-style: none;
 }
 
 .workout-options a img {
-    /* margin-top: 204px;
-    background:#C4C4C4;
-    padding: 101px 102px; */
     max-width: 204px;
     min-height: 202px;
     margin: 2% 0%;
